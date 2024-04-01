@@ -49,8 +49,14 @@ endmodule
 
 Half Subtractor:
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
-
+module halfsubtractor( D,Bo,A,B);
+input A,B;
+output D,Bo;
+wire w1;
+xor (D,A,B);
+not (w1,B);
+and (Bo,B,w1);
+endmodule
 
 
 Full Subtractor:
