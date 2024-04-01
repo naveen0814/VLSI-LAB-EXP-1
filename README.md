@@ -163,6 +163,13 @@ module fulladder(S, Co, X, Y, Ci);
 endmodule
 
 OUTPUT:
+LogicGates:
+![Screenshot_20240304_134535](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/26ed6de9-745c-4d28-baa3-8de981f17084)
+![Screenshot_20240401_132931](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/b2269c7e-0298-4b93-a259-f32384ac553d)
+
+HalfAdder:
+
+
 
 
 RESULT:
