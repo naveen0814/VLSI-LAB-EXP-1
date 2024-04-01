@@ -194,4 +194,4 @@ FullSubractor:
 ![Screenshot_20240401_133512](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/4b1c23b4-0e1c-40bd-b81a-37e2245267b8)
 
 RESULT:
-
+Thus the simulation and synthesis of Logic Gates, Adders and Subtractors using Vivado are successfully completed.
