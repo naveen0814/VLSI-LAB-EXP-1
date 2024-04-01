@@ -168,9 +168,29 @@ LogicGates:
 ![Screenshot_20240401_132931](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/b2269c7e-0298-4b93-a259-f32384ac553d)
 
 HalfAdder:
+![image](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/f061c9b0-2c32-489f-9990-9c6a7af013aa)
+![image](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/fcb60359-6ab6-4f1d-8cf6-802fa23595c2)
+
+FullAdder:
+![image](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/46df7b9f-56fa-4f73-a653-d0049fa8557c)
+![Screenshot_20240401_133333](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/0444f83d-1097-478e-be69-9198c4690a08)
+
+HalfSubractor:
+![image](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/314eebe8-1a90-4d24-a9d5-8c3b1be1facf)
+![Screenshot_20240401_132342](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/2fcf3e81-40d4-4e3f-886d-089dcf495a63)
 
 
+FullSubractor:
+![Screenshot_20240315_135703](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/c97ce04b-bdd9-4373-bf91-d835e93ac7b3)
+![Screenshot_20240401_131933](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/ea219104-7762-4f7c-b77d-61f6553f79eb)
 
+8 Bit Ripple Carry Adder:
+![Screenshot_20240401_134309](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/4a80404a-bdb5-4dc4-acdf-853b2383ebc4)
+![Screenshot_20240401_134126](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/8d615aa2-036d-433b-87a6-577169711aba)
+
+4 Bit Ripple Carry Adder:
+![Screenshot_20240315_135322](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/7614d204-24c5-4e14-a5e0-0e680c0c5439)
+![Screenshot_20240401_133512](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/4b1c23b4-0e1c-40bd-b81a-37e2245267b8)
 
 RESULT:
 
