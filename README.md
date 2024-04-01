@@ -1,4 +1,4 @@
-# VLSI-LAB-EXPERIMENTS
+# SIMULATION OF LOGICGATES , ADDERS , SUBRACTORS USING VIVADO.
 AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado.
 
 APPARATUS REQUIRED: Vivado 2023.1
