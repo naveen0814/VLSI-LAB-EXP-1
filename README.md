@@ -61,7 +61,17 @@ endmodule
 
 Full Subtractor:
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
+module full_sub(borrow,diff,a,b,c);
+output borrow,diff;
+input a,b,c;
+wire w1,w4,w5,w6;
+xor (diff,a,b,c);
+not n1(w1,a);
+and a1(w4,w1,b);
+and a2(w5,w1,c);
+and a3(w6,b,c);
+or o1(borrow,w4,w5,w6);
+endmodule
 
 
 
