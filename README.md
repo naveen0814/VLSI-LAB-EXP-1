@@ -23,7 +23,12 @@ endmodule
 
 Half Adder:
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry; 
+or(sum,a,b);
+and(carry,a,b);
+endmodule
 
 
 Full adder:
