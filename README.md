@@ -1,5 +1,5 @@
 # VLSI-LAB-EXPERIMENTS
-AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
+AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado.
 
 APPARATUS REQUIRED: Xilinx 14.7 Spartan6 FPGA
 
@@ -43,6 +43,7 @@ Full Subtractor:
 VERILOG CODE:
 
 Logic Gates:
+```
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;
 output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
@@ -54,20 +55,20 @@ nor(norgate,a,b);
 xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
-
+```
 
 Half Adder:
-
+```
 module half_adder(a,b,sum,carry);
 input a,b;
 output sum,carry; 
 or(sum,a,b);
 and(carry,a,b);
 endmodule
-
+```
 
 Full adder:
-
+```
 module fa_ha(a,b,c,sum,cout);
 input a,b,c;
 output sum,cout;
@@ -80,10 +81,10 @@ and a3(w4,a,c) ;
 or o1(w5,w2,w3) ;
 or o2(cout,w5,w4) ;
 endmodule
-
+```
 
 Half Subtractor:
-
+```
 module halfsubtractor( D,Bo,A,B);
 input A,B;
 output D,Bo;
@@ -92,10 +93,10 @@ xor (D,A,B);
 not (w1,B);
 and (Bo,B,w1);
 endmodule
-
+```
 
 Full Subtractor:
-
+```
 module full_sub(borrow,diff,a,b,c);
 output borrow,diff;
 input a,b,c;
@@ -107,11 +108,11 @@ and a2(w5,w1,c);
 and a3(w6,b,c);
 or o1(borrow,w4,w5,w6);
 endmodule
-
+```
 
 
 8 Bit Ripple Carry Adder
-
+```
 module ripplemod(a, b, cin, sum, cout);
 input [07:0] a;
 input [07:0] b;
@@ -137,9 +138,9 @@ output cout;
 assign sum=(a^b^cin);
 assign cout=((a&b)|(b&cin)|(a&cin));
 endmodule
-
+```
 4 Bit Ripple Carry Adder
-
+```
 module rippe_adder(S, Cout, X, Y,Cin);
  input [3:0] X, Y;
  input Cin;
@@ -161,7 +162,7 @@ module fulladder(S, Co, X, Y, Ci);
   and G4(w3, X, Y);
   or G5(Co, w2, w3);
 endmodule
-
+```
 OUTPUT:
 LogicGates:
 ![Screenshot_20240304_134535](https://github.com/naveen0814/VLSI-LAB-EXP-1/assets/161302822/26ed6de9-745c-4d28-baa3-8de981f17084)
